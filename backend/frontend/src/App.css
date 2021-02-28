@@ -1,0 +1,32 @@
+.heading {
+  margin: 5px;
+  padding: 5px;
+  color: gray;
+  border-bottom: 2px solid lavender;
+}
+.heading > h1 {
+  text-align: center;
+  font-weight: 100;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.tableContent {
+  text-align: center;
+  min-width: 50vw;
+  min-height: 50vh;
+}
+.choosefile {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.chF {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  padding: 10px;
+}
+.chF > button {
+  margin-top: 5px;
+}
